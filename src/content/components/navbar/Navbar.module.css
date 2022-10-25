@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: silver;
+}
+
+.container a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #1a73e8;
+    font-size: 20px;
+}
+
+.listContainer{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listContainer li {
+    margin-left: 30px;
+}
